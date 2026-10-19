@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "997847807881",
+    "project_id": "hobbithero-9c31c",
+    "storage_bucket": "hobbithero-9c31c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997847807881:android:e163073b6700b301ee9358",
+        "android_client_info": {
+          "package_name": "com.example.hobbithero"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997847807881-n7ekfgmn3shlfk8oeuovjjblq1lcj7cb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hobbithero",
+            "certificate_hash": "7c64ecb04e8d9e78ef198d5e4a8e54fa1d7a274a"
+          }
+        },
+        {
+          "client_id": "997847807881-bmjnnp4320olcjcolgebuog7b7281thg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0pQJoHXMR9cBxW614tF9mgttNTUn1iPU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997847807881-bmjnnp4320olcjcolgebuog7b7281thg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

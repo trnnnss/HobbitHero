@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="16dp"
+    android:background="?attr/colorSurface">
+
+    <!-- Sira Numarasi -->
+    <TextView
+        android:id="@+id/tvRank"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:background="@drawable/ic_turtle"
+        android:text="1" />
+
+    <!-- Kullanici Bilgileri -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginStart="14dp">
+
+        <TextView
+            android:id="@+id/tvLeaderName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kullanıcı Adı"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="?attr/colorOnSurface" />
+
+        <TextView
+            android:id="@+id/tvLeaderLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seviye 5"
+            android:textSize="12sp"
+            android:textColor="?attr/colorSecondary" />
+    </LinearLayout>
+
+    <!-- XP Puani -->
+    <TextView
+        android:id="@+id/tvLeaderXp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1250 XP"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="?attr/colorPrimary" />
+
+</LinearLayout>

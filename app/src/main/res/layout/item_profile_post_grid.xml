@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:foreground="?attr/selectableItemBackground">
+
+    <ImageView
+        android:id="@+id/ivGridPostImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:background="#E2E8F0" />
+
+    <!-- Overlay - beğeni sayısı -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:orientation="horizontal"
+        android:paddingStart="6dp"
+        android:paddingBottom="6dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tvGridPostLikes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="❤ 0"
+            android:textColor="#FFFFFF"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:shadowColor="#AA000000"
+            android:shadowRadius="4"
+            android:shadowDx="0"
+            android:shadowDy="1" />
+    </LinearLayout>
+
+</FrameLayout>

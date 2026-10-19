@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Modern, Soft & Actionable Palette -->
+    <!-- Base: Soft Indigo (Primary) and Soft Emerald/Mint (Secondary) -->
+    
+    <!-- Light Theme Colors -->
+    <color name="md_theme_light_primary">#4F46E5</color> <!-- Koyu Indigo -->
+    <color name="md_theme_light_onPrimary">#FFFFFF</color>
+    <color name="md_theme_light_primaryContainer">#E0E7FF</color>
+    <color name="md_theme_light_onPrimaryContainer">#3730A3</color>
+    <color name="md_theme_light_secondary">#34D399</color> <!-- Soft Emerald -->
+    <color name="md_theme_light_onSecondary">#FFFFFF</color>
+    <color name="md_theme_light_background">#F8FAFC</color> <!-- Soft Cool White -->
+    <color name="md_theme_light_onBackground">#0F172A</color> <!-- Dark Slate -->
+    <color name="md_theme_light_surface">#FFFFFF</color>
+    <color name="md_theme_light_onSurface">#0F172A</color>
+    <color name="md_theme_light_error">#F87171</color>
+    
+    <!-- Dark Theme Colors -->
+    <color name="md_theme_dark_primary">#A5B4FC</color> <!-- Lighter Soft Indigo -->
+    <color name="md_theme_dark_onPrimary">#312E81</color>
+    <color name="md_theme_dark_primaryContainer">#4338CA</color>
+    <color name="md_theme_dark_onPrimaryContainer">#E0E7FF</color>
+    <color name="md_theme_dark_secondary">#6EE7B7</color> <!-- Lighter Soft Emerald -->
+    <color name="md_theme_dark_onSecondary">#064E3B</color>
+    <color name="md_theme_dark_background">#0F172A</color> <!-- Soft Dark Slate -->
+    <color name="md_theme_dark_onBackground">#F8FAFC</color>
+    <color name="md_theme_dark_surface">#1E293B</color>
+    <color name="md_theme_dark_onSurface">#F8FAFC</color>
+    <color name="md_theme_dark_error">#FCA5A5</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
