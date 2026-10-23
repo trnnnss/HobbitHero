@@ -21,7 +21,7 @@
         <!-- Google Maps API Key -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCGq1VCtL_FZB8qIemYCdygAXjDzCx9fzc" />
+            android:value="xxxxxxxxxxxxxxxx" /> <!--Burada api anahtarı-->
         <activity
             android:name=".MainActivity"
             android:theme="@style/Theme.App.Starting"
